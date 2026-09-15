@@ -1,0 +1,81 @@
+html {
+    scroll-behavior: smooth;
+}
+
+main,
+section {
+    scroll-margin-top: 5rem;
+}
+
+.cabecalho {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
+
+.pular-conteudo {
+    position: absolute;
+    left: -10000px;
+    z-index: 40;
+}
+
+.pular-conteudo:focus {
+    left: 1rem;
+    top: 1rem;
+    padding: 0.5rem;
+    background: var(--bulma-scheme-main);
+}
+
+.foto-perfil {
+    display: block;
+    width: 260px;
+    height: 260px;
+    margin: auto;
+    border: 4px solid var(--bulma-primary);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.titulo-secao {
+    border-left: 4px solid var(--bulma-primary);
+    padding-left: 0.75rem;
+}
+
+.contato a {
+    overflow-wrap: anywhere;
+}
+
+.card {
+    transition: transform 0.2s ease;
+}
+
+@media (hover: hover) {
+    .card:hover {
+        transform: translateY(-3px);
+    }
+}
+
+@media (max-width: 768px) {
+    .foto-perfil {
+        width: 210px;
+        height: 210px;
+    }
+
+    .botoes-inicio {
+        justify-content: center;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .card {
+        transition: none;
+    }
+
+    .card:hover {
+        transform: none;
+    }
+}

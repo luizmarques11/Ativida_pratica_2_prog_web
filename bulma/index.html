@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página pessoal de Luiz Felipe de Souza Marques, estudante de Ciência da Computação interessado em Engenharia de Dados e desenvolvimento de software.">
+    <title>Luiz Felipe | Página Pessoal</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+    <header class="cabecalho">
+        <nav class="navbar" role="navigation" aria-label="Navegação principal">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item has-text-weight-bold" href="#inicio">Curriculo</a>
+                    <button class="navbar-burger" id="menu-burger" type="button" aria-label="Abrir ou fechar menu" aria-controls="menu-principal" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div class="navbar-menu" id="menu-principal">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="#sobre">Sobre</a>
+                        <a class="navbar-item" href="#habilidades">Habilidades</a>
+                        <a class="navbar-item" href="#projetos">Projetos</a>
+                        <a class="navbar-item" href="#interesses">Interesses</a>
+                        <a class="navbar-item" href="#contato">Contato</a>
+                        <div class="navbar-item">
+                            <button class="button is-primary is-outlined" id="alternar-tema" type="button">Tema escuro</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="conteudo">
+        <section class="section" id="inicio" aria-labelledby="titulo-inicio">
+            <div class="container">
+                <div class="columns is-vcentered is-variable is-6">
+                    <div class="column is-one-third has-text-centered">
+                        <img class="foto-perfil" src="assets/img/perfil.jpeg" alt="Foto de Luiz Felipe de Souza Marques" width="260" height="260">
+                    </div>
+                    <div class="column has-text-centered-mobile">
+                        <p class="has-text-primary has-text-weight-semibold mb-2">Olá, eu sou</p>
+                        <h1 class="title is-1" id="titulo-inicio">Luiz Felipe de Souza Marques</h1>
+                        <p class="subtitle is-4 mt-4">Estudante do 6º período de Ciência da Computação, interessado em Engenharia de Dados e desenvolvimento de software.</p>
+                        <div class="buttons botoes-inicio">
+                            <a class="button is-primary" href="https://github.com/LuizM3" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a class="button is-primary is-outlined" href="https://www.linkedin.com/in/luiz-felipe-de-souza-marques-4b4793242/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="sobre" aria-labelledby="titulo-sobre">
+            <div class="container">
+                <h2 class="title is-3 titulo-secao" id="titulo-sobre">Sobre mim</h2>
+                <div class="columns is-vcentered is-variable is-5">
+                    <div class="column is-two-thirds content">
+                        <p>Sou estudante de Ciência da Computação e tenho interesse especial na área de Engenharia de Dados e no desenvolvimento de soluções de software.</p>
+                        <p>Durante minha formação, venho desenvolvendo conhecimentos em programação, bancos de dados, controle de versão, sistemas Linux e utilização de containers.</p>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-content">
+                                <h3 class="title is-5">Formação</h3>
+                                <dl class="content">
+                                    <dt class="has-text-weight-semibold">Curso</dt>
+                                    <dd>Ciência da Computação</dd>
+                                    <dt class="has-text-weight-semibold">Período</dt>
+                                    <dd>6º período</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="habilidades" aria-labelledby="titulo-habilidades">
+            <div class="container">
+                <h2 class="title is-3 titulo-secao" id="titulo-habilidades">Habilidades</h2>
+                <ul class="tags are-medium">
+                    <li><span class="tag is-primary is-light">Python</span></li>
+                    <li><span class="tag is-primary is-light">SQL</span></li>
+                    <li><span class="tag is-primary is-light">Git</span></li>
+                    <li><span class="tag is-primary is-light">Linux</span></li>
+                    <li><span class="tag is-primary is-light">Docker</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="section" id="projetos" aria-labelledby="titulo-projetos">
+            <div class="container">
+                <h2 class="title is-3 titulo-secao" id="titulo-projetos">Projetos</h2>
+                <article class="card">
+                    <div class="card-content content">
+                        <h3 class="title is-4">Projeto Imóveis</h3>
+                        <p>Projeto de uma plataforma para centralizar imóveis disponíveis em diferentes imobiliárias, facilitando a pesquisa e a comparação de propriedades.</p>
+                        <p>O projeto envolve coleta e organização de dados, backend, banco de dados e interface para pesquisa de imóveis.</p>
+                        <a class="button is-primary" href="https://github.com/LuizM3/projeto_imoveis" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="section" id="interesses" aria-labelledby="titulo-interesses">
+            <div class="container">
+                <h2 class="title is-3 titulo-secao" id="titulo-interesses">Interesses</h2>
+                <article class="card">
+                    <div class="card-content content">
+                        <h3 class="title is-5">Engenharia de Dados</h3>
+                        <p>Interesse em processamento, transformação, armazenamento e utilização de dados.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="section" id="contato" aria-labelledby="titulo-contato">
+            <div class="container">
+                <h2 class="title is-3 titulo-secao" id="titulo-contato">Contato</h2>
+                <address class="content contato">
+                    <ul>
+                        <li><strong>E-mail:</strong> <a href="mailto:luizfelipesoma@gmail.com">luizfelipesoma@gmail.com</a></li>
+                        <li><strong>GitHub:</strong> <a href="https://github.com/LuizM3" target="_blank" rel="noopener noreferrer">LuizM3</a></li>
+                        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/luiz-felipe-de-souza-marques-4b4793242/" target="_blank" rel="noopener noreferrer">Luiz Felipe de Souza Marques</a></li>
+                    </ul>
+                </address>
+            </div>
+        </section>
+    </main>
+    <footer class="footer has-text-centered">
+        <div class="container">
+            <p>© <span id="ano-atual"></span> Luiz Felipe de Souza Marques</p>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
